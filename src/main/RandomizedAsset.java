@@ -1,6 +1,5 @@
 package main;
 
-import java.awt.Color;
 import java.util.ArrayList;
 
 import characters.*;
@@ -131,33 +130,5 @@ public class RandomizedAsset {
 	
 	public PowerAddOn getPowerAddOn2(){
 		return getKiller().getPowerAddOn2();
-	}
-	
-	/**
-	 * @return the color of the first killer addon
-	 */
-	public Color getKillerAddOn1Color() {
-		return this.getKiller().getPowerAddOn1().getColor();
-	}
-	
-	/**
-	 * @return the color of the second killer addon
-	 */
-	public Color getKillerAddOn2Color() {
-		return this.getKiller().getPowerAddOn2().getColor();
-	}
-	
-	/**
-	 * @return the color of the first survivor addon
-	 */
-	public Color getSurvAddOn1Color() {
-		return this.getItem().getAddOn1().getColor();
-	}
-	
-	/**
-	 * @return the color of the second survivor addon
-	 */
-	public Color getSurvAddOn2Color() {
-		return this.getItem().getAddOn2().getColor();
 	}
 }

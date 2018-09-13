@@ -1,6 +1,5 @@
 package items;
 
-import java.awt.Color;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -413,12 +412,5 @@ public enum PowerAddOn {
 		 }
 		return twoPowerAddOns;
 	 }
-	 
-		/**
-		 * @return the color of the addon
-		 */
-		public Color getColor() {
-			return this.getRarity().getColor();
-		}
 	
 }
